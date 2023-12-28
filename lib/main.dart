@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'package:suitmedia_test_flutter/views/third_screen.dart';
 
 import 'controllers/user_provider.dart';
 import 'views/first_screen.dart';

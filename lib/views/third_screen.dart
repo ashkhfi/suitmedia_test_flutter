@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../controllers/user_provider.dart';
-import '../models/user_model.dart';
 import 'second_screen.dart';
 
 class ThirdScreen extends StatelessWidget {
