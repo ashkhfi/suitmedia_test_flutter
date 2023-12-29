@@ -13,7 +13,6 @@ class User {
     required this.avatar,
   });
 
-  String get name => '$firstName $lastName';
 
   factory User.fromJson(Map<String, dynamic> json) {
     return User(

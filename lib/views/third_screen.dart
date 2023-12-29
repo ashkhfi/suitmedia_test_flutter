@@ -46,7 +46,7 @@ class ThirdScreen extends StatelessWidget {
                     children: [
                       ListTile(
                         title: Text(
-                          controller.userData[index].name,
+                          "${controller.userData[index].firstName} ${controller.userData[index].lastName}" ,
                           style: const TextStyle(
                               fontWeight: FontWeight.w500, fontSize: 18),
                         ),
